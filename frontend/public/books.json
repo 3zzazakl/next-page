@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "title": "How to Grow Your Online Store",
+    "description": "This book will help you to grow your online store and sell your products online. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-1.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 2,
+    "title": "How to Sell Products Online",
+    "description": "This book will help you to sell your products online. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-2.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 3,
+    "title": "How to Manage Your Online Store",
+    "description": "This book will help you to manage your online store. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-3.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 4,
+    "title": "How to Increase Your Sales",
+    "description": "This book will help you to increase your sales. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-4.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 5,
+    "title": "How to Make Your Online Store More Successful",
+    "description": "This book will help you to make your online store more successful. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-5.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 6,
+    "title": "How to Create an Online Store",
+    "description": "This book will help you to create an online store. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-6.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 7,
+    "title": "How to Sell Products Online",
+    "description": "This book will help you to sell products online. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-7.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 8,
+    "title": "How to Manage Your Online Store",
+    "description": "This book will help you to manage your online store. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-8.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 9,
+    "title": "How to Increase Your Sales",
+    "description": "This book will help you to increase your sales. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-9.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 10,
+    "title": "How to Make Your Online Store More Successful",
+    "description": "This book will help you to make your online store more successful. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-10.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 11,
+    "title": "How to Create an Online Store",
+    "description": "This book will help you to create an online store. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-11.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 12,
+    "title": "How to Sell Products Online",
+    "description": "This book will help you to sell products online. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-12.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 13,
+    "title": "How to Manage Your Online Store",
+    "description": "This book will help you to manage your online store. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-13.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 14,
+    "title": "How to Increase Your Sales",
+    "description": "This book will help you to increase your sales. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-14.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 15,
+    "title": "How to Make Your Online Store More Successful",
+    "description": "This book will help you to make your online store more successful. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-15.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 16,
+    "title": "How to Create an Online Store",
+    "description": "This book will help you to create an online store. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-16.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 17,
+    "title": "How to Sell Products Online",
+    "description": "This book will help you to sell products online. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-17.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 18,
+    "title": "How to Manage Your Online Store",
+    "description": "This book will help you to manage your online store. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-18.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 19,
+    "title": "How to Increase Your Sales",
+    "description": "This book will help you to increase your sales. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-19.png",
+    "oldPrice": 29.99,
+    "newPrice": 19.99
+  },
+  {
+    "id": 20,
+    "title": "How to Make Your Online Store More Successful",
+    "description": "This book will help you to make your online store more successful. You will learn how to create an online store, how to sell products online, and how to manage your online store. You will also learn how to increase your sales and how to make your online store more successful.",
+    "category": "business",
+    "trending": true,
+    "coverImage": "book-20.png",
+    "oldPrice": 29.99
+  }
+]
