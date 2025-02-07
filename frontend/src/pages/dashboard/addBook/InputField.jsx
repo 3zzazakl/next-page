@@ -1,17 +1,30 @@
 import React from 'react';
 
-const InputField = ({ label, name, type = 'text', register, placeHolder }) => {
-    return (
-        <div className="mb-4">
-            <label className="block text-sm font-semibold text-gray-700 mb-2">{label}</label>
-            <input
-                type={type}
-                {...register(name, { required: true })}
-                className="w-full px-3 py-2 placeholder-gray-400 border border-gray-500 rounded-md focus:outline-none focus:ring focus:ring-blue-300 focus:border-blue-300"
-                placeholder={placeHolder}
-            />
-        </div>
-    );
+const InputField = ({ 
+  label, 
+  name, 
+  type = 'text', 
+  register, 
+  placeholder, 
+  required = true, 
+  className = '', 
+  ...rest 
+}) => {
+  return (
+    <div className="mb-4">
+      <label className="block text-sm font-semibold text-gray-700 mb-1">
+        {label}
+        {required && <span className="text-red-500"> *</span>}
+      </label>
+      <input
+        type={type}
+        {...register(name, { required })}
+        placeholder={placeholder}
+        className={`w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-blue-500 ${className}`}
+        {...rest}
+      />
+    </div>
+  );
 };
 
 export default InputField;

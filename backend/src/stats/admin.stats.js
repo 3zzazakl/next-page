@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
         const monthlySales = await Order.aggregate([
             {
                 $group: {
-                    _id: { $dateToString: { format: '%Y-%m', date: "$createdAt" } },  // Group by year and month
+                    _id: { $dateToString: { format: "%Y-%m", date: "$createdAt" } },  // Group by year and month
                     totalSales: { $sum: "$totalPrice" },  // Sum totalPrice for each month
                     totalOrders: { $sum: 1 }  // Count total orders for each month
                 }

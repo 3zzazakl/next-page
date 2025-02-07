@@ -1,11 +1,10 @@
-import React from 'react'
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
 
-const Loading = () => {
-    return (
-        <div className="flex justify-center items-center">
-            <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-gray-700"></div>
-        </div>
-    )
-};
+const Loading = () => (
+  <div className="flex justify-center items-center h-screen">
+    <div className="animate-spin border-t-4 border-blue-500 rounded-full w-16 h-16 border-solid"></div>
+  </div>
+);
 
-export default Loading
+export default Loading;

@@ -1,38 +1,36 @@
-import { Outlet } from 'react-router-dom'
-import './App.css'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import { AuthProvide } from './context/AuthContext'
-import { useEffect, useState } from 'react'
-import Loading from './components/Loading'
+import { useEffect, useState } from 'react';
+import { Outlet } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import { AuthProvide } from './context/AuthContext';
+import Loading from './components/Loading';
 
 function App() {
-    const [loading, setLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(true);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setLoading(false)
-        }, 2000);
+  useEffect(() => {
+    const loadingTimer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
 
-        // cleanup Timer
-        return () => clearTimeout(timer);
-    }, []);
+    // Cleanup the timer on component unmount
+    return () => clearTimeout(loadingTimer);
+  }, []);
 
-    if (loading) {
-        return <Loading />;
-    }
+  if (isLoading) {
+    return <Loading />;
+  }
 
-    return (
-        <>
-            <AuthProvide>
-                <Navbar />
-                <main className='min-h-screen max-w-screen-2xl mx-auto px-4 py-6 font-primary'>
-                    <Outlet />
-                </main>
-                <Footer />
-            </AuthProvide>
-        </>
-    )
+  return (
+    <AuthProvide>
+      <Navbar />
+      <main className="min-h-screen max-w-screen-2xl mx-auto px-4 py-6 font-primary">
+        <Outlet />
+      </main>
+      <Footer />
+    </AuthProvide>
+  );
 }
 
-export default App
+export default App;
